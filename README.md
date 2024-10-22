@@ -6,7 +6,7 @@ The code has been tested on Ubuntu 22.04 with i9 14900K/RTX4090, and you can mod
 * [Cuda](https://developer.nvidia.cn/cuda-toolkit) >= 6.0
 * [OpenCV](https://opencv.org/) >= 2.4
 * [cmake](https://cmake.org/) >= 2.8
-* [Boost[(https://www.boost.org/) >= 1.62.0
+* [Boost](https://www.boost.org/) >= 1.62.0
 
 Besides make sure that your GPU Compute Capability matches the CMakeList.txt! Otherwise you can only get the empty result without any warnings. For example, according to GPU Compute Capability, RTX 4090's Compute Capability is 8.9. So you should set the cuda compilation parameter 'arch=compute_89,code=sm_89' or add a '-gencode arch=compute_89,code=sm_89'.
 
