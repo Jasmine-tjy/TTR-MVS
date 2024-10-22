@@ -36,11 +36,13 @@ make
 ```
 ### Testing dataset :open_file_folder:
 * ETH3D dataset
+  
 Download train and test dataset (style as xxx_dslr_undistorted.7z) from [ETH3D](https://www.eth3d.net/datasets), and use the script colmap2mvsnet.py to convert the dataset format(you may refer to MVSNet).
 ```
 python colmap2mvsnet.py --dense_folder <ETH3D data path, such as ./ETH3D/office> --save_folder <The path to save>
 ```
 * Tanks & Temples
+  
 We use the version provided by MVSNet. The dataset can be downloaded from [here](https://drive.google.com/file/d/1YArOJaX9WVLJh4757uE8AEREYkgszrCo/view), and the format is exactly what we need.
 ### Run :arrow_left:
 After the code and dataset preparation, the code can be run as follows:
